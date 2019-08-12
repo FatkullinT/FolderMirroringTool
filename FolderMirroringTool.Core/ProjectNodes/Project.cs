@@ -108,27 +108,6 @@ namespace FolderMirroringTool.Core.ProjectNodes
                         ((XElement)x).Attributes().First(y => y.Name.LocalName == "Include").Value == include) != null;
         }
 
-        /// <summary>
-        /// Returns a <see cref="ProjectReference"/> instance with an Include matching the given string, or null otherwise
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="include"></param>
-        /// <returns></returns>
-        public ProjectReference FindProjectReference(string include)
-        {
-            var node =
-                _source.DescendantNodes()
-                    .Where(x => x is XElement)
-                    .FirstOrDefault(
-                        x =>
-                            ((XElement)x).Name.LocalName == "ProjectReference" &&
-                            ((XElement)x).Attributes().First(y => y.Name.LocalName == "Include").Value == include);
-
-            if (node == null) return null;
-
-            return new ProjectReference(node);
-        }
-
         public void AddItemGroup(ItemGroup itemGroup)
         {
             var lastNode = (CsProjectNode)ItemGroups.LastOrDefault() ?? PropertyGroups.Last();

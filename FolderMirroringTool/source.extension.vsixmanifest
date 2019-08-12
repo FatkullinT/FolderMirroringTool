@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="FolderMirroringTool.094af5f7-7fa7-4ee8-af8d-9dd8bbf2244b" Version="1.0" Language="en-US" Publisher="Fatkullin Timur" />
+        <Identity Id="FolderMirroringTool.094af5f7-7fa7-4ee8-af8d-9dd8bbf2244b" Version="1.1" Language="en-US" Publisher="Fatkullin Timur" />
         <DisplayName>FolderMirroringTool</DisplayName>
         <Description xml:space="preserve">Folder mirroring tool for .Net Core and .Net Standard projects</Description>
     </Metadata>

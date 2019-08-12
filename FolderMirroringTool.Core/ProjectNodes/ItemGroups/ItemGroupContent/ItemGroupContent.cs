@@ -32,7 +32,7 @@ namespace FolderMirroringTool.Core.ProjectNodes.ItemGroups.ItemGroupContent
 
         public ItemGroupContent(XNode node) : base(node)
         {
-            _include = Element.Attribute("Include").Value;
+            _include = Element.Attribute("Include")?.Value;
         }
 
         protected ItemGroupContent(string include)

@@ -8,7 +8,7 @@ namespace FolderMirroringTool.Console
         static void Main(string[] args)
         {
             new FolderReflector().FullMirroring(
-                @"C:\Users\fatku\source\repos\FolderMirroringTool\FolderMirroringTool.TestLib\FolderMirroringTool.TestLib.csproj");
+                @"c:\Projects\INNF\epm-innf\Backend\InnerFocus.Backend.Web\InnerFocus.Backend.Web.csproj");
         }
     }
 }

@@ -50,11 +50,8 @@
     <Compile Include="ProjectNodes\Element.cs" />
     <Compile Include="ProjectNodes\ItemGroups\ItemGroup.cs" />
     <Compile Include="ProjectNodes\ItemGroups\ItemGroupContent\Compile.cs" />
-    <Compile Include="ProjectNodes\ItemGroups\ItemGroupContent\Content.cs" />
-    <Compile Include="ProjectNodes\ItemGroups\ItemGroupContent\EmbeddedResource.cs" />
     <Compile Include="ProjectNodes\ItemGroups\ItemGroupContent\ItemGroupContent.cs" />
     <Compile Include="ProjectNodes\ItemGroups\ItemGroupContent\ItemGroupFileContent.cs" />
-    <Compile Include="ProjectNodes\ItemGroups\ItemGroupContent\ProjectReference.cs" />
     <Compile Include="ProjectNodes\Project.cs" />
     <Compile Include="ProjectNodes\PropertyGroups\PropertyGroup.cs" />
     <Compile Include="ProjectNodes\Reflection.cs" />
